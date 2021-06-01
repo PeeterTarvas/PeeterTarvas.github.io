@@ -16,8 +16,9 @@ body{
 
 .title {
     color: black;
-    font-style: oblique;
     font-size: 300%;
+    font-weight: 540;
+    font-style: italic;
 }
 
 p {
