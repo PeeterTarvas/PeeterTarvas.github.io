@@ -1,9 +1,11 @@
 body{
-    background: linear-gradient(to top,
+    background: linear-gradient(26deg,
     rgba(80, 111, 133, 1),
     rgba(207, 181, 140, 1),
+    palegoldenrod,
     rgba(4, 17, 33, 0.8),
     rgba(207, 181, 140, 1));
+    text-align: center;
 
 }
 
@@ -13,7 +15,9 @@ body{
 }
 
 .title {
-    color: rgb(19, 86, 117);
+    color: black;
+    font-style: oblique;
+    font-size: 300%;
 }
 
 p {
@@ -30,6 +34,7 @@ a:hover {
 
 a:visited {
     color: navy;
+    text-decoration: line-through;
 }
 
 thead {
@@ -41,16 +46,20 @@ tr {
 }
 
 table{
+    align-self: center;
     border: 5px solid beige;
     background: linear-gradient(to right,darkgoldenrod, rgba(94, 110, 68, 1));
 
 }
 td{
-    border: 3px solid beige;
+    border: .1em solid beige;
 }
 
 img[src="src/resources/minuPilt.jpg"] {
-    border: 5px solid lightgoldenrodyellow;
+    alignment-baseline: center;
+    align-content: center;
+    align-items: center;
+    border: 0.6vmax solid lightgoldenrodyellow;
     height: 50%;
     width: 50%;
 }
@@ -59,7 +68,7 @@ h3[class=description] {
     color: ivory;
 }
 img[src="src/resources/minuPilt.jpg"]:hover {
-border: 5px solid #050124;
+border: 0.6vmax solid #050124;
 
 }
 
