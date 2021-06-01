@@ -6,6 +6,7 @@ body{
     rgba(4, 17, 33, 0.8),
     rgba(207, 181, 140, 1));
     text-align: center;
+    font-family: 'PT Serif', serif;
 
 }
 
@@ -46,11 +47,15 @@ tr {
     color: ivory;
 }
 
-table{
+table {
     align-self: center;
     border: 5px solid beige;
     background: linear-gradient(to right,darkgoldenrod, rgba(94, 110, 68, 1));
-
+    margin-left: 29%;
+    padding:5% 2%;
+    width:300px;
+    resize:both;
+    overflow:auto;
 }
 td{
     border: .1em solid beige;
