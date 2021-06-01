@@ -1,5 +1,5 @@
 body{
-    background: peru;
+    background: rgba(207, 181, 140, 0.6);
 
 }
 
@@ -9,7 +9,7 @@ body{
 }
 
 .title {
-    color: ivory;
+    color: rgb(19, 86, 117);
 }
 
 p {
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: navy;;
+    color: #050124;
 }
 
 a:visited {
@@ -39,6 +39,7 @@ tr {
 table{
     border: 5px solid beige;
     background: darkgoldenrod;
+
 }
 td{
     border: 3px solid beige;
@@ -46,10 +47,18 @@ td{
 
 img[src="src/resources/minuPilt.jpg"] {
     border: 5px solid lightgoldenrodyellow;
+    height: 50%;
+    width: 50%;
+    background-repeat: repeat;
+    background-size: contain ;
 
 }
+
+h3[class=description] {
+    color: ivory;
+}
 img[src="src/resources/minuPilt.jpg"]:hover {
-border: 5px solid crimson;
+border: 5px solid #050124;
 
 }
 
