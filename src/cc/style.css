@@ -7,11 +7,7 @@ body{
     rgba(207, 181, 140, 1));
     text-align: center;
     font-family: 'PT Serif', serif;
-
-}
-
-#1aa{
-    color: rebeccapurple;
+    text-decoration-color: ivory;
 
 }
 
@@ -39,23 +35,30 @@ a:visited {
     text-decoration: line-through;
 }
 
-thead {
-    color: ivory;
-}
-
-tr {
-    color: ivory;
-}
-
 table {
     align-self: center;
     border: 5px solid beige;
     background: linear-gradient(to right,darkgoldenrod, rgba(94, 110, 68, 1));
-    margin-left: 29%;
     padding:5% 2%;
     width:300px;
     resize:both;
     overflow:auto;
+    color: ivory;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.tablet1 {
+    float: top;
+    display: inline-block;
+}
+
+.tablet2 {
+    float: bottom;
+    display: inline-block;
+    align-self: center;
 }
 td{
     border: .1em solid beige;
@@ -68,14 +71,40 @@ img[src="src/resources/minuPilt.jpg"] {
     border: 0.6vmax solid lightgoldenrodyellow;
     height: 50%;
     width: 50%;
+    padding: 0.5%;
 }
-
 h3[class=description] {
     color: ivory;
 }
 img[src="src/resources/minuPilt.jpg"]:hover {
 border: 0.6vmax solid #050124;
+}
+
+.container {
+    background: linear-gradient(to right,darkgoldenrod, rgba(94, 110, 68, 1));
+    color: ivory;
+    font-size: 120%;
+    text-align: left;
+    border: 0.3em solid palegoldenrod;
+    padding: 1em;
+    margin: 1em;
+    height: 40vh;
+
+
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
 
 }
+
+.cont-item {
+    border: 2px solid ivory;
+    width: 5%;
+    height: 6vm;
+    font-size: 25px;
+}
+
 
 
