@@ -17,6 +17,11 @@ class Main {
         return side === this.length_bottom;
     }
 
+    swichImg() {
+        var ele = document.getElementById("picture");
+
+
+}
 
 
 }
