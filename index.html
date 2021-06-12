@@ -7,18 +7,20 @@
     <link rel="stylesheet" type="text/css" href="src/cc/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <
 </head>
 <body>
 
 <h1 class="title">Peeter Tarvas</h1>
-<div class="grid-container">
+<div class="grid-container" style=" grid-column: 1 / span 2; grid-row: 1 / span 2">
     <div class="g-cont-item" style="order: 1">Name: Peeter Tarvas</div>
     <div class="g-cont-item" style="order: 2">Mail: peetertarvas@gmail.com</div>
     <div class="g-cont-item" style="order: 3">Phone: +37256954909</div>
     <div class="g-cont-item" style="order: 4">Location: Tallinn, Estonia</div>
     <div class="g-cont-item" style="order: 5">Languages: Estonian, English</div>
     <div class="g-cont-item" style="order: 5">Age: 21</div>
-    <div class="g-gcont-item" style="order: 6">Studying Informatics at TalTech</div>
+    <div class="g-cont-item" style="order: 6">Studying Informatics at TalTech</div>
 </div>
 <div class="picture">
 <img src="src/resources/minuPilt.jpg" height="500" width="500" alt="Not available"/>
@@ -29,55 +31,22 @@
 </div>
 <br>
 <a href="https://peetertarvas.github.io/">This is a link to my page</a>
-<br>
-<br>
-
-
-<br>
-
-
-
+<br><br><br>
+<div class="grid-container" style="height:55vh; display: grid; grid-auto-flow: column">
 <div class="container">
-    <div class="cont-item" style="order: 1">
-        <div class="tablet2">
-            <table>
-                <thead>
-                <th>Languages and semi-languages</th>
-                </thead>
-                <tbody>
-                <tr>
-                    <td id ="Java">Java</td>
-                </tr>
-                <tr>
-                    <td id="Python">Python</td>
-                </tr>
-                <tr><td>JavaScript</td>
-                    <td>HTML</td>
-                    <td>CSS</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div class="cont-item" style="order: 2"><div class="tablet1">
-        <table title="My projects">
-            <thead>
-            <th>Projects</th>
-            </thead>
-            <tbody>
-            <tr class="bod">
-                <td id="frstElement"><a href="https://github.com/PeeterTarvas/BoxheadTypeGame">
-                    A computer game that I made with Java and libgdx</a></td>
-            </tr>
-            <tr>
-                <td id="scndElement">something else</td>
-            </tr>
-            </tbody>
-        </table>
-    </div></div>
+    <div class="cont-item" style="order: 1; font-size: 250%; align-self: self-start">Languages</div>
+    <div class="cont-item" style="order: 1">Python</div>
+    <div class="cont-item" style="order: 2">Java</div>
+    <div class="cont-item" style="order: 2">JavaScript, HTML, Css</div>
 
 </div>
+<div class="container">
+    <div class="cont-item" style="order: 1; font-size: 250%">Projects</div>
+    <div class="cont-item" style="order: 1">Python</div>
+    <div class="cont-item" style="order: 2">Java</div>
+    <div class="cont-item" style="order: 2">JavaScript, HTML, CSS</div>
 
-
+</div>
+</div>
 </body>
 </html>
