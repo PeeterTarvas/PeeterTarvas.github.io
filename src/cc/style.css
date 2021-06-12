@@ -70,7 +70,7 @@ img[src="src/resources/minuPilt.jpg"] {
     border: 0.6vmax solid lightgoldenrodyellow;
     height: 50%;
     width: 50%;
-    padding: 0.5%;
+    transition: 2s ease-in-out;
 }
 h3[class=description] {
     color: ivory;
@@ -86,22 +86,25 @@ border: 0.6vmax solid #050124;
     text-align: left;
     border: 0.3em solid linen;
     padding: 1em;
-    margin: 2em;
+    margin: 2%;
     height: 20vh;
-    width: 60%;
+    width: 100%;
 
 
     display: flex;
     flex-direction:  column;
     flex-wrap: wrap;
     justify-content: space-around;
+    transition: 2s ease-in-out 3s;
+
+
 
 
 }
 
 .cont-item {
-    width: 5%;
-    height: 3vm;
+    width: 6%;
+    height: 4vm;
     font-size: 100%;
     align-self: self-start;
     color: black;
@@ -122,7 +125,32 @@ border: 0.6vmax solid #050124;
 
     justify-content: center;
     align-items: flex-start;
+    transition: 2s ease-in-out 3s;
+
 }
 
+.grid-container1 {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 4.5vh;
+    background: linen;
+    border: 0.4vh solid black;
+
+
+
+    padding: 2%;
+    margin: 2%;
+    height: 25vh;
+    width: 92%;
+
+    justify-content: center;
+    transition: 2s ease-in-out 3s;
+
+}
+.container:hover {
+    background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
+    transition: 2s ease-in-out 3s;
+    -webkit-text-fill-color: ivory;
+}
 
 
