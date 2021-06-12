@@ -82,12 +82,12 @@ border: 0.6vmax solid #050124;
 .container {
     background: linear-gradient(to right ,rgba(222, 217, 213, 0.4),rgba(3, 1, 36, 0.5) , rgba(235, 229, 223, 1));
     color: ivory;
-    font-size: 140%;
+    font-size: 100%;
     text-align: left;
     border: 0.3em solid linen;
     padding: 1em;
     margin: 2em;
-    height: 40vh;
+    height: 20vh;
     width: 60%;
 
 
@@ -101,8 +101,8 @@ border: 0.6vmax solid #050124;
 
 .cont-item {
     width: 5%;
-    height: 6vm;
-    font-size: 140%;
+    height: 3vm;
+    font-size: 100%;
     align-self: self-start;
     color: black;
 
