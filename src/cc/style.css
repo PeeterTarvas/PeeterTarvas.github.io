@@ -27,11 +27,11 @@ a {
 }
 
 a:hover {
-    color: #050124;
+    color: antiquewhite;
 }
 
 a:visited {
-    color: navy;
+    color: white;
     text-decoration: line-through;
 }
 
@@ -61,7 +61,6 @@ border: 0.6vmax solid #050124;
     color: ivory;
     font-size: 100%;
     text-align: left;
-    border: 0.3em solid linen;
     padding: 1em;
     margin: 2%;
     height: 20vh;
@@ -72,7 +71,6 @@ border: 0.6vmax solid #050124;
     flex-direction:  column;
     flex-wrap: wrap;
     justify-content: space-around;
-    transition: 0.5s ease-in-out 3s;
 }
 
 .container1 {
@@ -80,7 +78,6 @@ border: 0.6vmax solid #050124;
     color: ivory;
     font-size: 100%;
     text-align: left;
-    border: 0.3em solid linen;
     padding: 1em;
     margin: 2%;
     height: 20vh;
@@ -91,7 +88,6 @@ border: 0.6vmax solid #050124;
     flex-direction:  column;
     flex-wrap: wrap;
     justify-content: space-around;
-    transition: 0.5s ease-in-out 3s;
 }
 
 
@@ -136,7 +132,7 @@ border: 0.6vmax solid #050124;
     width: 92%;
 
     justify-content: flex-start;
-    -webkit-transition: 0.5s ease-in-out 3s;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 .container:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
@@ -166,14 +162,14 @@ border: 0.6vmax solid #050124;
     width: 92%;
 
     justify-content: center;
-    -webkit-transition: 0.5s ease-in-out 3s;
+    -webkit-transition: all 0.5s ease-in-out 3s;
 }
 
 .grid-container2:hover {
     display: grid;
     grid-auto-flow: row;
     gap: 4.5vh;
-    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 0.7));
+    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 1));
     border: 0.4vh solid black;
 
     padding: 2%;
@@ -182,7 +178,7 @@ border: 0.6vmax solid #050124;
     width: 92%;
 
     justify-content: center;
-    -webkit-transition: 0.5s ease-in-out 3s;
+    transition: all 0.5s ease-in-out 3s;
 }
 
 
