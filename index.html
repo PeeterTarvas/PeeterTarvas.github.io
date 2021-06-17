@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="Javascript">
 <head>
     <title>
         "Peeter Tarvas"
@@ -10,7 +10,6 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-
 <h1 class="title">Peeter Tarvas</h1>
 <div class="grid-container" style=" grid-column: 1 / span 2; grid-row: 1 / span 2">
     <div class="g-cont-item" style="order: 1">Name: Peeter Tarvas</div>
@@ -21,9 +20,10 @@
     <div class="g-cont-item" style="order: 5">Age: 21</div>
     <div class="g-cont-item" style="order: 6">Studying Informatics at TalTech</div>
 </div>
-<div class="picture">
-<img src="src/resources/minuPilt.jpg" height="500" width="500" alt="Not available"/>
-</div>
+
+
+<img src="src/resources/minuPilt.jpg" id="img" height="500" width="500" alt="Not available" onclick="changePicture()"/>
+
 <br>
 <div>
     <h3 class="description"> This is my description </h3>
@@ -47,5 +47,9 @@
 
 </div>
 </div>
+<div class="grid-container2" style="height :55vh; display: grid; grid-auto-flow: row">
+</div>
+
+
 </body>
 </html>

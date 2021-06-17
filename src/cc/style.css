@@ -35,35 +35,12 @@ a:visited {
     text-decoration: line-through;
 }
 
-table {
-    align-self: center;
-    border: 5px solid beige;
-    background: linear-gradient(to right,darkgoldenrod, rgba(94, 110, 68, 1));
-    padding:5% 2%;
-    width:40vh;
-    resize:both;
-    overflow:auto;
-    color: ivory;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-.tablet1 {
-    display: inline-block;
-}
-
-.tablet_container {
-    display: grid;
-    width: 400%;
-    align-self: center;
-}
 td{
     border: .1em solid beige;
 }
 
-img[src="src/resources/minuPilt.jpg"] {
+img {
     alignment-baseline: center;
     align-content: center;
     align-items: center;
@@ -75,7 +52,7 @@ img[src="src/resources/minuPilt.jpg"] {
 h3[class=description] {
     color: ivory;
 }
-img[src="src/resources/minuPilt.jpg"]:hover {
+img:hover {
 border: 0.6vmax solid #050124;
 }
 
@@ -159,20 +136,36 @@ border: 0.6vmax solid #050124;
     width: 92%;
 
     justify-content: center;
-    transition: 0.5s ease-in-out 3s;
-
+    -webkit-transition: 0.5s ease-in-out 3s;
 }
 .container:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
-    transition: 0.5s ease-in-out 3s;
+    transition: 0.5s ease-in-out 1s;
     -webkit-text-fill-color: ivory;
 }
 
 .container1:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
-    transition: 0.5s ease-in-out 3s;
+    -webkit-transition: 0.5s ease-in-out;
     -webkit-text-fill-color: ivory;
-    width: 200px;
+    width: 200%;
+    justify-content: flex-start;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 4.5vh;
+    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 0.7));
+    border: 0.4vh solid black;
+
+    padding: 2%;
+    margin: 2%;
+    height: 25vh;
+    width: 92%;
+
+    justify-content: center;
+    -webkit-transition: 0.5s ease-in-out 3s;
 }
 
 

@@ -1,27 +1,8 @@
-class Main {
+function changePicture() {
+    if (document.getElementById("img").src.match("src/resources/minuPilt.jpg")) {
+        document.getElementById("img").src = "src/resources/teine_pilt_minust.jpg";
+    } else {
+        document.getElementById("img").src = "src/resources/minuPilt.jpg";
 
-
-    constructor(height, length) {
-
-        this.length_bottom = length
-        this.height = height
     }
-
-    calculateSize() {
-        return this.height * (this.length_bottom / 2);
-    }
-
-    determineIfRectangleIsEqualSided() {
-        var side = Math.sqrt(((this.length_bottom / 2) ** 2)
-            + ((this.height) ** 2));
-        return side === this.length_bottom;
-    }
-
-    swichImg() {
-        var ele = document.getElementById("picture");
-
-
-}
-
-
 }
