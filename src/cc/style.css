@@ -45,8 +45,8 @@ img {
     align-content: center;
     align-items: center;
     border: 0.6vmax solid lightgoldenrodyellow;
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     transition: 0.5s ease-in-out;
 }
 h3[class=description] {
@@ -132,27 +132,44 @@ border: 0.6vmax solid #050124;
 
     padding: 2%;
     margin: 2%;
-    height: 25vh;
+    height: 26vh;
     width: 92%;
 
-    justify-content: center;
+    justify-content: flex-start;
     -webkit-transition: 0.5s ease-in-out 3s;
 }
 .container:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
-    transition: 0.5s ease-in-out 1s;
+    transition: 0.5s ease-in-out;
     -webkit-text-fill-color: ivory;
+    width: 270%;
+
 }
 
 .container1:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
     -webkit-transition: 0.5s ease-in-out;
     -webkit-text-fill-color: ivory;
-    width: 200%;
-    justify-content: flex-start;
+    width: 270%;
 }
 
 .grid-container2 {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 4.5vh;
+    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 0.7));
+    border: 0.4vh solid black;
+
+    padding: 2%;
+    margin: 2%;
+    height: 25vh;
+    width: 92%;
+
+    justify-content: center;
+    -webkit-transition: 0.5s ease-in-out 3s;
+}
+
+.grid-container2:hover {
     display: grid;
     grid-auto-flow: row;
     gap: 4.5vh;
