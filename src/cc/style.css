@@ -23,11 +23,11 @@ p {
 }
 
 a {
-    color: ivory;
+    color: black;
+    display: inline;
 }
-
 a:hover {
-    color: antiquewhite;
+
 }
 
 a:visited {
@@ -80,7 +80,7 @@ border: 0.6vmax solid #050124;
     text-align: left;
     padding: 1em;
     margin: 2%;
-    height: 20vh;
+    height: 40vh;
     width: 100%;
 
 
@@ -88,6 +88,7 @@ border: 0.6vmax solid #050124;
     flex-direction:  column;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 
@@ -128,7 +129,7 @@ border: 0.6vmax solid #050124;
 
     padding: 2%;
     margin: 2%;
-    height: 26vh;
+    height: 30vh;
     width: 92%;
 
     justify-content: flex-start;
@@ -138,7 +139,7 @@ border: 0.6vmax solid #050124;
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
     transition: 0.5s ease-in-out;
     -webkit-text-fill-color: ivory;
-    width: 270%;
+    width: 225%;
 
 }
 
@@ -146,14 +147,14 @@ border: 0.6vmax solid #050124;
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
     -webkit-transition: 0.5s ease-in-out;
     -webkit-text-fill-color: ivory;
-    width: 270%;
+    width: 225%;
 }
 
 .grid-container2 {
     display: grid;
     grid-auto-flow: row;
     gap: 4.5vh;
-    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 0.7));
+    background: linen;
     border: 0.4vh solid black;
 
     padding: 2%;
@@ -169,7 +170,7 @@ border: 0.6vmax solid #050124;
     display: grid;
     grid-auto-flow: row;
     gap: 4.5vh;
-    background: linear-gradient(180deg, rgba(5, 0, 41, 1), rgba(23, 26, 3, 1));
+    background: linen;
     border: 0.4vh solid black;
 
     padding: 2%;
