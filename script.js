@@ -5,3 +5,11 @@ function changePicture() {
         document.getElementById("img").src = "src/resources/minuPilt.jpg";
     }
 }
+
+
+function expandBox(id) {
+    let state = 0;
+    if (state === 0) {
+        document.getElementById(id)
+    }
+}
