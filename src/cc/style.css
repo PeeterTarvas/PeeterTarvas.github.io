@@ -152,7 +152,7 @@ border: 0.6vmax solid #050124;
 
 .main-grid-container {
     display: grid;
-    height: 146vh;
+    height: 170vh;
     padding: 2%;
     margin: 2%;
     grid-template-columns: repeat(2, 1fr);
@@ -169,7 +169,7 @@ border: 0.6vmax solid #050124;
 
 .cont-col-item {
     border: 0.4vh solid black;
-    height: 70vh;
+    height: 80vh;
     margin: 2vh;
     width: 90%;
     background: linen;
