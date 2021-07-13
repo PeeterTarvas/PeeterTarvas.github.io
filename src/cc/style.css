@@ -18,27 +18,37 @@ body{
     font-style: italic;
 }
 
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    text-align: start
+}
+
+.list-item {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: square;
+    margin: 3%;
+    padding: 1%;
+    width: 70%;
+}
 p {
     color: ivory;
 }
 
 a {
-    color: black;
+    color: blue;
     display: inline;
 }
 a:hover {
-
-}
-
-a:visited {
-    color: white;
-    text-decoration: line-through;
+    color: #050124;
 }
 
 
-td{
-    border: .1em solid beige;
-}
 
 img {
     alignment-baseline: center;
@@ -65,32 +75,11 @@ border: 0.6vmax solid #050124;
     margin: 2%;
     height: 20vh;
     width: 100%;
-
-
     display: flex;
     flex-direction:  column;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-.container1 {
-    background: linear-gradient(to right ,rgba(222, 217, 213, 0.4),rgba(3, 1, 36, 0.5) , rgba(235, 229, 223, 1));
-    color: ivory;
-    font-size: 100%;
-    text-align: left;
-    padding: 1em;
-    margin: 2%;
-    height: 40vh;
-    width: 100%;
-
-
-    display: flex;
-    flex-direction:  column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
 
 
 .cont-item {
@@ -120,21 +109,6 @@ border: 0.6vmax solid #050124;
 
 }
 
-.grid-container1 {
-    display: grid;
-    grid-auto-flow: row;
-    gap: 4.5vh;
-    background: linen;
-    border: 0.4vh solid black;
-
-    padding: 2%;
-    margin: 2%;
-    height: 30vh;
-    width: 92%;
-
-    justify-content: flex-start;
-    -webkit-transition: all 0.5s ease-in-out;
-}
 .container:hover {
     background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
     transition: 0.5s ease-in-out;
@@ -143,12 +117,6 @@ border: 0.6vmax solid #050124;
 
 }
 
-.container1:hover {
-    background: linear-gradient(to right, rgba(54, 5, 8, 1), rgba(23, 1, 2, 1));
-    -webkit-transition: 0.5s ease-in-out;
-    -webkit-text-fill-color: ivory;
-    width: 225%;
-}
 
 .grid-container2 {
     display: grid;
@@ -180,6 +148,32 @@ border: 0.6vmax solid #050124;
 
     justify-content: center;
     transition: all 0.5s ease-in-out 3s;
+}
+
+.main-grid-container {
+    display: grid;
+    height: 90vh;
+    padding: 2%;
+    margin: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.cont-col {
+    height: 86vh;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.cont-col-item {
+    border: 0.4vh solid black;
+    height: 42vh;
+    margin: 2vh;
+    width: 90%;
+    background: linen;
+
 }
 
 
