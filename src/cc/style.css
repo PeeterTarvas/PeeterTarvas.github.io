@@ -167,12 +167,19 @@ border: 0.6vmax solid #050124;
 
 }
 
+.h3 {
+    text-align: center;
+}
+
 .cont-col-item {
-    border: 0.4vh solid black;
-    height: 80vh;
+    border: 0.4vh solid linen;
+    height: 76vh;
     margin: 2vh;
     width: 90%;
     background: linen;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
 
 }
 
